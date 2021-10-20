@@ -21,7 +21,7 @@ public class Auto {
 		String resultado="Auto original";
 		for (int i = 0; i < asientos.length; i++) {
 			if (asientos[i]!=null)
-					if (motor.registro==registro==asientos[i].registro)
+					if (motor.registro==registro && registro==asientos[i].registro)
 						continue;
 					else
 						resultado="Las piezas no son originales";
