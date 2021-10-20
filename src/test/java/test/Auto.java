@@ -11,7 +11,7 @@ public class Auto {
 	int cantidadAsientos() {
 		int resultado;
 		for (int i=0; i<asientos.length;i++) {
-			resultado++;
+			resultado=resultado+1;
 		}
 		return resultado;
 	}
