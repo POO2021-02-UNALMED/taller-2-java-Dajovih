@@ -11,7 +11,7 @@ public class Auto {
 	int cantidadAsientos() {
 		int resultado=0;
 		for (int i = 0; i < asientos.length; i++) {
-			if asientos[i]!=null
+			if (asientos[i]!=null)
 					resultado=resultado+1;
 		}
 		return resultado;
@@ -20,7 +20,7 @@ public class Auto {
 	String verficarIntegridad() {
 		String resultado="Auto original"
 		for (int i = 0; i < asientos.length; i++) {
-			if asientos[i]!=null
+			if (asientos[i]!=null)
 					if (motor.registro==registro==asientos[i].registro)
 						continue;
 					else
