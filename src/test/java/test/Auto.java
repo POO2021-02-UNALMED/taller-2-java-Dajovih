@@ -17,7 +17,7 @@ public class Auto {
 		return resultado;
 	}
 	
-	String verficarIntegridad() {
+	String verificarIntegridad() {
 		String resultado="Auto original";
 		for (int i = 0; i < asientos.length; i++) {
 			if (asientos[i]!=null)
