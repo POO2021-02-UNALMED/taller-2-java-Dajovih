@@ -18,7 +18,7 @@ public class Auto {
 	}
 	
 	String verficarIntegridad() {
-		String resultado="Auto original"
+		String resultado="Auto original";
 		for (int i = 0; i < asientos.length; i++) {
 			if (asientos[i]!=null)
 					if (motor.registro==registro==asientos[i].registro)
@@ -27,7 +27,7 @@ public class Auto {
 						resultado="Las piezas no son originales";
 						break;
 		}
-		return resultado
+		return resultado;
 		
 	}
 	
