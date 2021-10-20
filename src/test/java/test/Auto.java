@@ -9,7 +9,7 @@ public class Auto {
 	int cantidadCreados;
 	
 	int cantidadAsientos() {
-		int resultado;
+		int resultado=0;
 		for (int i=0; i<asientos.length;i++) {
 			resultado=resultado+1;
 		}
